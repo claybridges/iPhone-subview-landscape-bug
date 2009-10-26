@@ -1,5 +1,5 @@
 //
-//  ViewB.h
+//  ViewA.h
 //  landscape_subview_bug
 //
 //  Created by Clay Bridges on 10/14/09.
@@ -8,5 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewB : UITableViewController {}
+@interface ShellTVC : UITableViewController {
+	NSString* title;
+}
+
+- (id) initWithTitle: (NSString*) titleArg;
+
 @end

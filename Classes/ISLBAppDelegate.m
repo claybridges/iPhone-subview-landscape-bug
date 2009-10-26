@@ -7,26 +7,30 @@
 //
 
 #import "landscape_subview_bugAppDelegate.h"
-#import "ViewA.h"
+#import "ShellTVC.h"
 
 @implementation landscape_subview_bugAppDelegate
 
 @synthesize window;
 
-
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
-	ViewA* viewA = [[ViewA alloc] initWithStyle:UITableViewStylePlain];
+	ShellTVC* viewA = [[ShellTVC alloc] initWithTitle:@"View A"];
+	ShellTVC* viewB = [[ShellTVC alloc] initWithTitle:@"View B"];
 
-    // Override point for customization after application launch
+	// The first subview added will rotate to landscape correctly. 
+	// Any subsequent subview added will not.
+	
+	// You may try this by various commentings and rearranging of these two statements.
+	
 	[window addSubview:[viewA tableView]];
+	[window addSubview:[viewB tableView]];
+
     [window makeKeyAndVisible];
 }
-
 
 - (void)dealloc {
     [window release];
     [super dealloc];
 }
-
 
 @end
