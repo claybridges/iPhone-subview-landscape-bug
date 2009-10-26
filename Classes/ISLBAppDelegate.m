@@ -6,10 +6,10 @@
 //  Copyright change machine 2009. All rights reserved.
 //
 
-#import "landscape_subview_bugAppDelegate.h"
+#import "ISLBAppDelegate.h"
 #import "ShellTVC.h"
 
-@implementation landscape_subview_bugAppDelegate
+@implementation ISLBAppDelegate
 
 @synthesize window;
 

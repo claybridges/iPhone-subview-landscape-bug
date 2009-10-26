@@ -11,7 +11,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface landscape_subview_bugAppDelegate : NSObject <UIApplicationDelegate> {
+@interface ISLBAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
 }
 
