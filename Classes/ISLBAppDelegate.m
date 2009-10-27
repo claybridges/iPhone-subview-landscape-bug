@@ -1,6 +1,6 @@
 //
-//  landscape_subview_bugAppDelegate.m
-//  landscape_subview_bug
+//  iPhone_subview_landscape_bugAppDelegate.m
+//  iPhone_subview_landscape_bug
 //
 //  Created by Clay Bridges on 10/14/09.
 //  Copyright change machine 2009. All rights reserved.

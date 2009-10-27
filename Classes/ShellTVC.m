@@ -1,13 +1,12 @@
 //
-//  ViewA.m
-//  landscape_subview_bug
+//  ShellTVC.m
+//  iPhone_subview_landscape_bug
 //
 //  Created by Clay Bridges on 10/14/09.
 //  Copyright 2009 change machine. All rights reserved.
 //
 
 #import "ShellTVC.h"
-
 
 @implementation ShellTVC
 
@@ -28,7 +27,6 @@
 }
 
 - (BOOL) shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-	// Return YES for supported orientations
 	return (interfaceOrientation == UIInterfaceOrientationLandscapeLeft);
 }
 
